@@ -1,0 +1,238 @@
+/*
+CUSTOM FONT CSS
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/********************* TAG SELECTORS *********************/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/********************* CLASS SELECTORS *********************/
+
+.nav-item {
+    margin: 0px 20px;
+    font-size: 125%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.main {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.container-feat {
+    padding: 2% 8%;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 10px 20px 10px 0px;
+    width: 60%;
+}
+
+.btn-outline-light {
+    background-color: #ff4c68;
+}
+
+.container1 {
+    margin: 15% auto;
+}
+
+.feature-row {
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.features-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.features-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.icons {
+    color: #ef8172;
+    margin: 16px auto;
+}
+
+.icons:hover {
+    color: #ff4c68;
+    margin: 16px auto;
+}
+
+.image-one {
+    transform: rotate(0deg);
+    width: 60%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0 0 4.5rem 0;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.testimonial-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 8%;
+}
+
+.card {
+    padding: 0;
+    margin: 2% 0%;
+}
+
+.card-row {
+    margin: 5% 0%;
+}
+
+.cta-text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    width: 40%;
+    margin: 0% auto 1%;
+}
+
+.cta-div {
+    padding: 6% 0%;
+    text-align: center;
+}
+
+.cta-btn {
+    width: 25%;
+    text-align: center;
+}
+
+.footer-credits {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.8rem;
+    color: #8f8f8f;
+}
+
+.footer-row {
+    width: 100%;
+    margin: 2% auto;
+    padding: 0% 42%;
+}
+
+.pricing-btn {
+    width: 100%;
+}
+
+/********************* ID SELECTORS *********************/
+
+#title {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#features {
+    padding: 25% auto;
+    background-color: white;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    text-align: center;
+    margin: 5% 5%;
+}
+
+#cta {
+    background-color: #ff4c68;
+}
+
+#footer {
+    background-color: white;
+    margin: 4% auto;
+    text-align: center;
+}
+
+/********************* MEDIA QUERIES *********************/
+
+@media (min-width: 990px) {
+    .image-one {
+        position: absolute;
+        z-index: 0;
+        transform: rotate(25deg);
+        margin-left: 20%;
+    }
+
+    #title {
+        text-align: left;
+    }
+
+    #features {
+        padding: 25% auto;
+        background-color: white;
+        position: relative;
+        z-index: 1;
+    }
+
+    .container-fluid {
+        padding-bottom: 5%;
+    }
+
+    .cta-btn {
+        width: 12%;
+    }
+}
